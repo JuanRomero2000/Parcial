@@ -22,3 +22,9 @@ if revisar_argumentos() == False:
 else:
    print("\nArgumentos validos\n")
    print(sys.argv[1])
+
+argumento1 = sys.argv[1].replace('{','').replace('}','').replace(',',' ')
+argumento2 = sys.argv[2].replace('{','').replace('}','').replace(',',' ')
+
+conjunto1 = set(argumento1.split())
+conjunto2 = set(argumento2.split())
