@@ -30,6 +30,8 @@ conjunto1 = set(argumento1.split())
 conjunto2 = set(argumento2.split())
 
 
-#elementos que estan en a pero no en b
+
 def diferencia(conjunto1,conjunto2):
     print(conjunto1 - conjunto2)
+
+    diferencia(conjunto1,conjunto2)
